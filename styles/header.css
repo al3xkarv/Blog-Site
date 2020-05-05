@@ -1,0 +1,68 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.subscribe {
+  text-decoration: underline;
+  color: gray;
+}
+
+.title {
+  text-decoration: underline;
+  color: #404040;
+  font-size: 75px;
+}
+
+.fa {
+  font-size: 40px;
+  padding-right: 30px;
+}
+.fa:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 575px) {
+  header {
+    max-width: 80%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  .title {
+    font-size: 60px;
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  header {
+    max-width: 80%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+  .title {
+    font-size: 60px;
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 961px) {
+  header {
+    max-width: 80%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .title {
+    font-size: 60px;
+    max-width: 80%;
+  }
+}

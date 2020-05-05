@@ -1,0 +1,88 @@
+.main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-area: 1fr 1fr;
+}
+
+.post_title {
+  font-size: 100px;
+  margin: 0;
+  color: #669999;
+}
+
+.date_and_author {
+  display: flex;
+  align-items: baseline;
+}
+
+.by {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: gray;
+}
+
+.author {
+  font-size: larger;
+}
+#rock_climbing {
+  width: 1000px;
+  height: 400px;
+}
+.side_section {
+  display: flex;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.archives {
+  display: flex;
+  flex-direction: column;
+}
+
+.elsewhere {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  border-radius: 30px;
+  font-size: 17px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#older_post {
+  border-color: blue;
+}
+
+#newer_post {
+  border-color: gray;
+  color: gray;
+}
+
+@media (max-width: 575px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+  #rock_climbing {
+    width: 400px;
+    height: 160px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+  #rock_climbing {
+    width: 400px;
+    height: 160px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 961px) {
+}

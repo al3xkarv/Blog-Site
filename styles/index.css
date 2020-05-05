@@ -1,0 +1,42 @@
+@import "header.css";
+@import "footer.css";
+@import "post_container.css";
+
+html,
+body {
+  height: 100%;
+  margin: 25px 50px 50px 50px;
+}
+
+body {
+  display: grid;
+
+  font-family: "Coda", cursive;
+}
+
+@media (max-width: 575px) {
+  html,
+  body {
+    /* width: 80%; */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  html,
+  body {
+    /* width: 80%; */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 961px) {
+  html,
+  body {
+    /* width: 80%; */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
