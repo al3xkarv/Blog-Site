@@ -11,12 +11,10 @@ An example of a simple blog designed FOR SCRATCH as a part of Udacity Front-End 
 ### Installing
 Just clone/download the project files, and run index.html at your browser of choice.
 
-## Homepage 
-<br/>
+## Homepage<br/>
 ![Screenshot of Homepage](img/screenshot1.png)
 
-## Post example
-<br/>
+## Post example<br/>
 ![Screenshot of a post](img/screenshot2.png)
 
 ## Authors
