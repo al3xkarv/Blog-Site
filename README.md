@@ -1,5 +1,5 @@
 # Blog-Site
-An example of a simple blog designed FOR SCRATCH as a part of Udacity Front-End Nanodegree program.
+An example of a simple blog designed from scratch as a part of Udacity Front-End Nanodegree program.
 
 
 ## Built With
