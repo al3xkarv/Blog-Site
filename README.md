@@ -1,6 +1,6 @@
 # Blog-Site
 An example of a simple blog designed from scratch as a part of Udacity's Front-End Nanodegree program.
-
+Live [here](http://users.uoa.gr/~sdi1700298/Developer%20Loading/)
 
 ## Built With
 
